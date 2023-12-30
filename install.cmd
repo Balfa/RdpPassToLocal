@@ -1,3 +1,9 @@
+rem install.cmd
+rem installs the RdpPassToLocal AHK script so it starts every time I log in to windows.
+
+rem To install directly from github using git bash:
+rem curl -sL https://raw.githubusercontent.com/Balfa/RdpPassToLocal/main/install.cmd | cmd
+
 git clone https://github.com/Balfa/RdpPassToLocal.git
 cd RdpPassToLocal
 set TARGET='%cd%\RdpPassToLocal.ahk'
