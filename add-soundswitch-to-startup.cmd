@@ -6,4 +6,4 @@ rem This isn't strictly related to to RdpPassToLocal, but I use the two together
 rem To run this directly from github using git bash:
 rem curl -sL https://raw.githubusercontent.com/Balfa/RdpPassToLocal/main/add-soundswitch-to-startup.cmd | cmd
 
-cp "/c/ProgramData/Microsoft/Windows/Start Menu/Programs/SoundSwitch/SoundSwitch.lnk" "%APPDATA%/Microsoft/Windows/Start Menu/Programs/Startup/"
+copy "/c/ProgramData/Microsoft/Windows/Start Menu/Programs/SoundSwitch/SoundSwitch.lnk" "%APPDATA%/Microsoft/Windows/Start Menu/Programs/Startup/"
